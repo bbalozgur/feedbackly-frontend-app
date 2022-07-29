@@ -1,6 +1,3 @@
-import 'tailwindcss/tailwind.css';
-import './styles.css';
-
 export { Feedback } from 'containers/feedback';
 
 // import { createRoot } from 'react-dom/client';

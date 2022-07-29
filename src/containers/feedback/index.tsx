@@ -4,6 +4,8 @@ import { FeedbackDialog } from 'components/FeedbackDialog';
 import { CTAButton } from 'components/CTAButton';
 import { useFeedback } from 'hooks/useFeedback';
 import type { CTAButtonProps } from 'components/CTAButton';
+import 'tailwindcss/tailwind.css';
+import './styles.css';
 
 export interface FeedbackProps {
   onSubmit?: (feedback: string) => void;
