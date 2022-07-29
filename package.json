@@ -2,7 +2,6 @@
   "name": "feedbacky",
   "description": "Feedbacky is a web application that allows users to send feedback to the developers of the application.",
   "version": "0.1.0",
-  "private": true,
   "author": {
     "name": "Ozgur Bal",
     "email": "balozgur94@gmail.com",
