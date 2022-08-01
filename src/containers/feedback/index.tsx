@@ -25,7 +25,7 @@ export const Feedback = (props: FeedbackProps) => {
     onSubmit,
     position,
     sendButtonText = 'Send feedback',
-    shouldCloseAfterSubmit = false,
+    shouldCloseAfterSubmit = true,
   } = props;
   const [isOpen, setIsOpen] = useState(false);
 
@@ -47,7 +47,9 @@ export const Feedback = (props: FeedbackProps) => {
     }
 
     if (shouldCloseAfterSubmit) {
-      handleClose();
+      setTimeout(() => {
+        handleClose();
+      }, 2000);
     }
   };
 
