@@ -25,7 +25,7 @@ export const CTAButton = (props: CTAButtonProps) => {
       className={classNames(
         positionClass,
         className ||
-          'fixed p-4 text-3xl text-center hover:bg-orange-600 hover:text-white hover:scale-110 rounded-full transition-all duration-150'
+          'fixed p-4 z-10 text-3xl text-center hover:bg-orange-600 hover:text-white hover:scale-110 rounded-full transition-all duration-150'
       )}
       onClick={onClick ?? defaultOnClick}
       aria-label="Send your feedback"

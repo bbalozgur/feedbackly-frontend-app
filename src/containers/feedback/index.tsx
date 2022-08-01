@@ -14,6 +14,7 @@ export interface FeedbackProps {
   position?: CTAButtonProps['position'];
   dialogDescription?: string;
   sendButtonText?: string;
+  shouldCloseAfterSubmit?: boolean,
 }
 
 export const Feedback = (props: FeedbackProps) => {
@@ -23,7 +24,8 @@ export const Feedback = (props: FeedbackProps) => {
     dialogDescription,
     onSubmit,
     position,
-    sendButtonText = 'Send feedback'
+    sendButtonText = 'Send feedback',
+    shouldCloseAfterSubmit = false,
   } = props;
   const [isOpen, setIsOpen] = useState(false);
 
@@ -42,6 +44,10 @@ export const Feedback = (props: FeedbackProps) => {
       onSubmit(feedback);
     } else {
       await sendFeedback(feedback);
+    }
+
+    if (shouldCloseAfterSubmit) {
+      handleClose();
     }
   };
 

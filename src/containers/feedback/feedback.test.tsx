@@ -1,6 +1,6 @@
 import { act, fireEvent, render, screen } from '@testing-library/react';
 
-import { Feedback } from '.';
+import { Feedback } from 'containers/feedback';
 
 describe('feedback', () => {
   it('should render', () => {

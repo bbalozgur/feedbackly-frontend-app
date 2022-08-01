@@ -1,4 +1,4 @@
-export { Feedback } from 'containers/feedback';
+export * from 'containers/feedback';
 
 // import { createRoot } from 'react-dom/client';
 // import App from 'components/App';
