@@ -47,9 +47,7 @@ export const Feedback = (props: FeedbackProps) => {
     }
 
     if (shouldCloseAfterSubmit) {
-      setTimeout(() => {
         handleClose();
-      }, 2000);
     }
   };
 
