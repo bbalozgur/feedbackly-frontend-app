@@ -1,7 +1,7 @@
 {
   "name": "feedbacky-ty",
   "description": "Feedbacky is a web application that allows users to send feedback to the developers of the application.",
-  "version": "0.3.14",
+  "version": "0.3.15",
   "files": ["dist"],
   "main": "./dist/feedbacky.umd.js",
   "module": "./dist/feedbacky.es.js",
