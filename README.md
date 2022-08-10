@@ -4,7 +4,7 @@
 
 If you need feedback design in your web application, you can use this module.
 It is a module developed with React and typescript.
-Tailwindcs is used as style.
+Tailwindcss is used as style.
 
 ## npm install feedbacky-ty
 
@@ -14,7 +14,7 @@ You need to import style file into your main css file.
 
 ## npm test
 
-Tests run with this command.
+This command runs the tests
 
 ## npm run build
 
@@ -23,7 +23,7 @@ This command builds the module.
 ## ENV
 
 You should add it as env.
-You can also add a different url. I gave a deployed url.
+You can also add a different url. You can find deployed url.
 VITE_FEEDBACK_SERVICE=https://feedbacky-service.herokuapp.com
 
 ## GITHUB OWNER
